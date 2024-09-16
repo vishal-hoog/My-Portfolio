@@ -1,0 +1,271 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+}
+
+.primary-color {
+  color: #ffc106;
+}
+.text-hilight {
+  color: #81ff03;
+}
+.text-grad {
+  background: -webkit-linear-gradient(#ffc106, #ff9800);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.background-light {
+  background: #131313;
+}
+.bg-white {
+  background-color: #fff;
+}
+.color-black {
+  color: black;
+}
+.height-100 {
+  height: 100vh;
+}
+.t-sm {
+  font-size: 14px;
+}
+.py{
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+}
+.navbar-brand {
+  color: #ffc106 !important;
+}
+.nav-link:hover {
+  color: #ffc106 !important;
+}
+.nav-wrap {
+  background-color: #00000094;
+}
+.navbar-collapse {
+  background-color: transparent;
+}
+.navbar-scrolled {
+  background-color: rgba(0, 0, 0, 0.8); /* Example background color */
+}
+
+.header-bg {
+  background-image: url(../public/assets/images/bg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+.content h1 {
+  font-size: 45px;
+}
+
+.img-wrap {
+  max-width: 75%;
+  height: 445px;
+  border: 16px solid #228a1c;
+  border-radius: 2px;
+  background: #00000080;
+  position: relative;
+}
+
+.img-wrap img {
+  max-width: 100%;
+  height: 400px;
+  position: absolute;
+  width: 97%;
+  right: -31px;
+  top: 39px;
+  object-fit: none;
+  border: 15px solid white;
+  border-radius: 2px;
+}
+.about {
+  font-size: 15px;
+  line-height: 1.8;
+}
+.ex-card {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  border: 1px solid #d6dfff;
+  box-shadow: #46597799 0px 8px 24px;
+  cursor: pointer;
+}
+
+.company-logo {
+  width: 40px;
+  left: 20px;
+  border-radius: 4px;
+}
+.card-wrapper {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: auto;
+}
+.skill-card {
+  width: 125px;
+  height: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.skill-card img {
+  max-width: 90px;
+  height: 80px;
+  object-fit: contain;
+  margin: auto;
+  display: block;
+}
+.icon-wrapper {
+  width: 80px;
+  height: 80px;
+  border: 1px solid green;
+  background: black;
+  color: white;
+  border-radius: 100%;
+  padding: 10px;
+}
+.img-wrp {
+  max-width: 70%;
+  height: 100%;
+  display: block;
+}
+.img-wrp img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+.project-card {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #d6dfff;
+  border-radius: 10px;
+  box-shadow: #46597799 0px 8px 24px;
+}
+.project-info .btn {
+  top: -15px;
+  text-decoration: none;
+  color: black;
+}
+.logo-wrp {
+  width: 100%;
+  height: 120px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+.logo-wrp img {
+  width: 100%;
+  height: 100%;
+}
+.nav-bg {
+  background: transparent;
+}
+
+.bi {
+  cursor: pointer;
+}
+.bi:hover {
+  color: #ffc106;
+}
+.coppyright {
+  border-top: 1px solid #ffc106;
+}
+
+@media (max-width: 1200px) {
+  .content h1 {
+    font-size: 38px;
+}
+  .img-wrap {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 1023px) {
+  .navbar-collapse {
+    background-color: #4b4b4b;
+    padding: 20px;
+  }
+  .img-wrap {
+    max-width: 95%;
+    height: 360px;
+  }
+  .img-wrap img {
+    height: 331px;
+    width: 100%;
+    right: -31px;
+    top: 28px;
+  }
+  
+  .content h1 {
+    font-size: 28px;
+  }
+  .about {
+    font-size: 14px;
+    line-height: 1.5;
+}
+}
+
+@media (max-width: 575px) {
+  .nav-wrap {
+    background-color: black;
+    border-bottom: 1px solid #ff9800;
+  }
+  .py {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+  
+  .content h1 {
+    font-size: 29px;
+  }
+  .t-sm {
+    font-size: 12px;
+  }
+  .card-wrapper {
+    width: 100%;
+  }
+  .img-wrap {
+    max-width: 90%;
+    height: 300px;
+    margin: auto;
+  }
+  .img-wrap img {
+    height: 280px;
+    width: 100%;
+    right: -25px;
+    top: 21px;
+  }
+  .ex-card img {
+    top: 30px !important;
+    width: 30px;
+  }
+  .project-card .btn {
+    position: static !important;
+    width: 100%;
+    bottom: 0;
+  }
+
+  .about {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .info h6 {
+    font-size: 12px !important;
+  }
+}
+@media (max-width: 420px){
+  .content h1 {
+    font-size: 24px;
+}
+}
