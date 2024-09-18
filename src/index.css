@@ -218,7 +218,6 @@
 
 @media (max-width: 575px) {
   .nav-wrap {
-    background-color: black;
     border-bottom: 1px solid #ff9800;
   }
   .py {
