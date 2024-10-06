@@ -30,7 +30,7 @@ export const experience = [
         company : 'Innow8 Apps',
         location : 'Mohali',
         start : 'Oct 2021',
-        end : 'july 2024',
+        end : 'Mar 2023',
         desc : 'Understand the client requirements and assist projects with solutions for technical problems .Also, Supervise development, delivery, and extending post-implementation along with maintenance support of projects.',
         imgUrl : 'images/logo2.jpg'
     },
